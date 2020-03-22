@@ -1,0 +1,41 @@
+.header {
+  position: relative;
+
+  &__top {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    margin: 26px;
+    transition: 0.3s;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+
+  &__bg {
+    margin-bottom: 40px;
+    height: 464px;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+}
+
+@media (max-width: 500px) {
+  .header {
+
+    &__top {
+      border-bottom: 1px solid #fd5c63;
+    }
+
+    &__bg {
+      display: none;
+    }
+  }
+}
