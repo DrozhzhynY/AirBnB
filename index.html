@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Airbnb</title>
+  <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__top">
+      <div class="header__logo">
+        <a href="#"><img src="images/logo.svg" alt="logo"></a>
+      </div>
+      <nav class="header__nav nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#" class="nav__link">Become a host</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Trips</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Messages</a></li>
+        </ul>
+        <a href="#"><img src="images/avatar.jpg" alt="avatar" class="nav__avatar"></a>
+      </nav>
+    </div>
+    <div class="header__bg"></div>
+  </header>
+  <div class="container">
+    <main class="main">
+    <section class="apartment">
+      <h1 class="apartment__title">Quiet apartment</h1>
+      <article class="apartment apartment-info">
+        <p class="apartment-info__subtitle">Entire apartment</p>
+        <ul class="apartment-info__items">
+          <li class="apartment-info__item">4 guests</li>
+          <li class="apartment-info__item">1 bed</li>
+          <li class="apartment-info__item">1 bath</li>
+        </ul>
+        <p class="apartment-info__text">
+          City Apartment is newly renovated in the heart of Budapest, right in the city center. Lorem ipsum dolor sit
+          amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam.
+        </p>
+        <a href="#" class="apartment-info__link">Contact host</a>
+      </article>
+      <article class="apartment amenities">
+        <h3 class="amenities__title">Amenities</h3>
+        <div class="amenities__list--wrap">
+          <ul class="amenities__list">
+            <li class="amenities__item">Elevator</li>
+            <li class="amenities__item">Washer</li>
+          </ul>
+          <ul class="amenities__list">
+            <li class="amenities__item">Hair dryer</li>
+            <li class="amenities__item">Kitchen</li>
+          </ul>
+        </div>
+        <a href="#" class="amenities__link">Show All Amenities</a>
+      </article>
+      <section class="reviews">
+        <h2 class="reviews__title">Reviews</h2>
+        <article class="review">
+          <div class="review__inner">
+            <img src="images/ellipse.svg" alt="avatar" class="review__avatar">
+            <p class="review__autor">John</p>
+            <p class="review__date">September 2016</p>
+          </div>
+          <p class="review__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam.
+          </p>
+        </article>
+        <article class="review">
+          <div class="review__inner">
+            <img src="images/ellipse.svg" alt="avatar" class="review__avatar">
+            <p class="review__autor">John</p>
+            <p class="review__date">September 2016</p>
+          </div>
+          <p class="review__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam.
+          </p>
+        </article>
+      </section>
+      <article class="host">
+        <h2 class="host__title">Hosted by Jane</h2>
+        <address class="host__location">Budapest, Hungary</address>
+        <p class="host__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et magna
+          aliqua
+        </p>
+        <a href="#" class="host__link">Contact Host</a>
+      </article>
+    </section>
+    </main>
+    <aside class="aside">
+      <p class="aside__price">25$ per night</p>
+      <form action="#" method="POST" class="form aside__form">
+        <label class="form__item">
+          <input placeholder="Date" type="text" onfocus=" (this.type='date')" onchange="this.blur();" id="date" class="input form__input">
+        </label>
+        <label class="form__item">
+          <input type="number" name="guests" placeholder="Guests" class="input form__input" required>
+        </label>
+        <button type="submit" class="button form__button">Book</button>
+      </form>
+    </aside>
+  </div>
+  <hr class="footer__line">
+    <footer class="footer container">
+      <div class="footer__inner">
+        <section>
+          <h4 class="footer__title">Airbnb</h4>
+          <ul>
+            <li><a href="#" class="footer__link">About</a></li>
+            <li><a href="#" class="footer__link">Press</a></li>
+            <li><a href="#" class="footer__link">Help</a></li>
+          </ul>
+        </section>
+        <section>
+          <h4 class="footer__title">Discover</h4>
+          <ul>
+            <li><a href="#" class="footer__link">Travel credit</a></li>
+            <li><a href="#" class="footer__link">Business</a></li>
+            <li><a href="#" class="footer__link">Guidebooks</a></li>
+          </ul>
+        </section>
+        <section>
+          <h4 class="footer__title">Hosting</h4>
+          <ul>
+            <li><a href="#" class="footer__link">Why host</a></li>
+            <li><a href="#" class="footer__link">Hospitality</a></li>
+            <li><a href="#" class="footer__link">Community</a></li>
+          </ul>
+        </section>
+      </div>
+    </footer>
+
+  <script type="text/javascript" src="scripts/main.js"></script>
+</body>
+
+</html>
