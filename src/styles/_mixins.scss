@@ -1,0 +1,6 @@
+@mixin link {
+  display: block;
+  white-space: nowrap;
+  color: $mainColor;
+  transition: 0.3s;
+}
